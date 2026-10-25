@@ -29,7 +29,7 @@ env:
 
 jobs:
   build-and-deploy:
-    runs-on: ubuntu-latest-latest # For Linux, use ubuntu-latest
+    runs-on: ubuntu-latest # For Linux, use ubuntu-latest
     environment: prod
     steps:
     - name: 'Checkout GitHub Action'
